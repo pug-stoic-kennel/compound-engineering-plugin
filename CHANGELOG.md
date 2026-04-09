@@ -1,5 +1,28 @@
 # Changelog
 
+## [2.64.0](https://github.com/pug-stoic-kennel/compound-engineering-plugin/compare/cli-v2.63.1...cli-v2.64.0) (2026-04-09)
+
+
+### Features
+
+* **ce-plan:** reduce token usage by extracting conditional references ([#489](https://github.com/pug-stoic-kennel/compound-engineering-plugin/issues/489)) ([fd562a0](https://github.com/pug-stoic-kennel/compound-engineering-plugin/commit/fd562a0d0255d203d40fd53bb10d03a284a3c0e5))
+* **ce-update:** add plugin version check skill and ce_platforms filtering ([#532](https://github.com/pug-stoic-kennel/compound-engineering-plugin/issues/532)) ([d37f0ed](https://github.com/pug-stoic-kennel/compound-engineering-plugin/commit/d37f0ed16f94aaec2a7b435a0aaa018de5631ed3))
+* **model:** add MiniMax provider prefix for cross-platform model normalization ([#463](https://github.com/pug-stoic-kennel/compound-engineering-plugin/issues/463)) ([e372b43](https://github.com/pug-stoic-kennel/compound-engineering-plugin/commit/e372b43d30378321ac815fe1ae101c1d5634d321))
+* **release:** document linked-versions policy ([#482](https://github.com/pug-stoic-kennel/compound-engineering-plugin/issues/482)) ([96345ac](https://github.com/pug-stoic-kennel/compound-engineering-plugin/commit/96345acf217333726af0dcfdaa24058a149365bb))
+* **session-historian:** cross-platform session history agent and /ce-sessions skill ([#534](https://github.com/pug-stoic-kennel/compound-engineering-plugin/issues/534)) ([3208ec7](https://github.com/pug-stoic-kennel/compound-engineering-plugin/commit/3208ec71f8f2209abc76baf97e3967406755317d))
+* **skill-design:** document skill file isolation and platform variable constraints ([#469](https://github.com/pug-stoic-kennel/compound-engineering-plugin/issues/469)) ([0294652](https://github.com/pug-stoic-kennel/compound-engineering-plugin/commit/0294652395cb62d5569f73ebfea543cfe8b514d6))
+
+
+### Bug Fixes
+
+* **ce-brainstorm:** reduce token cost by extracting late-sequence content ([#511](https://github.com/pug-stoic-kennel/compound-engineering-plugin/issues/511)) ([bdeb793](https://github.com/pug-stoic-kennel/compound-engineering-plugin/commit/bdeb7935fcdb147b73107177769c2e968463d93f))
+* **cli:** resolve repo-wide tsc --noEmit type errors ([#512](https://github.com/pug-stoic-kennel/compound-engineering-plugin/issues/512)) ([3fa0c81](https://github.com/pug-stoic-kennel/compound-engineering-plugin/commit/3fa0c815b286c9e11b28dc04c803529e73b79c1b))
+* **converters:** OpenCode subagent model and FQ agent name resolution ([#483](https://github.com/pug-stoic-kennel/compound-engineering-plugin/issues/483)) ([577db53](https://github.com/pug-stoic-kennel/compound-engineering-plugin/commit/577db53a2d2e237e900ef2079817cfe63df2d725))
+* **converters:** preserve user config when writing MCP servers ([#479](https://github.com/pug-stoic-kennel/compound-engineering-plugin/issues/479)) ([c65a698](https://github.com/pug-stoic-kennel/compound-engineering-plugin/commit/c65a698d932d02e5fb4a948db4d000e21ed6ba4f))
+* **converters:** remove invalid tools/infer from Copilot agent frontmatter ([#493](https://github.com/pug-stoic-kennel/compound-engineering-plugin/issues/493)) ([6dcb4a3](https://github.com/pug-stoic-kennel/compound-engineering-plugin/commit/6dcb4a3c553c94e95cb15b5af59aeb6693e6fd61))
+* **mcp:** remove bundled context7 MCP server ([#486](https://github.com/pug-stoic-kennel/compound-engineering-plugin/issues/486)) ([afdd9d4](https://github.com/pug-stoic-kennel/compound-engineering-plugin/commit/afdd9d44651f834b1eed0b20e401ffbef5c8cd41))
+* **openclaw:** use sync plugin registration ([#498](https://github.com/pug-stoic-kennel/compound-engineering-plugin/issues/498)) ([2c05c43](https://github.com/pug-stoic-kennel/compound-engineering-plugin/commit/2c05c43dc8b66ae37501e42a9747c07d82002185))
+
 ## [2.63.1](https://github.com/EveryInc/compound-engineering-plugin/compare/cli-v2.63.0...cli-v2.63.1) (2026-04-07)
 
 
